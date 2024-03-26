@@ -1,16 +1,28 @@
-# yuktidea_assignment
+# Yuktidea Assignment
 
-A new Flutter project.
+This Flutter project is an assignment to develop the UI for onboarding screens of a mobile application and integrate provided APIs to fetch necessary data for the onboarding process. The application follows Flutter's best practices and guidelines for UI development to ensure a visually appealing and user-friendly experience.
 
-## Getting Started
+# Installation and Run Guide
+```
 
-This project is a starting point for a Flutter application.
+git clone https://github.com/tikeshsahu/yuktidea.git
+cd Weather-App
+flutter pub get
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencies
+  get: ^4.6.6
+  
+  dio: ^5.4.1
+  
+  flutter_svg: ^2.0.10+1
+  
+  flutter_html: ^3.0.0-beta.2
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  pinput: ^3.0.1
+
+# Contact Info
+### Email: tikeshsahuofficial@gmail.com
+Feel free to reach out in case of any queries.
