@@ -40,10 +40,7 @@ class OnboardingController extends GetxController {
       _countriesData.assignAll(response["data"]["countries"]);
       updateIsLoading(false);
     } catch (e) {
-      CustomSnackBar.showErrorSnackBar(
-        title: AppConstants.error,
-        message: AppConstants.somethingWentWrong,
-      );
+      if (kDebugMode) print(e);
       updateIsLoading(false);
     }
   }
