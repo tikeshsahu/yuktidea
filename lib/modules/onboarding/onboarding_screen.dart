@@ -43,8 +43,9 @@ class OnboardingScreen extends StatelessWidget {
                   width: size.width * 0.7,
                   height: size.height * 0.07,
                   child: CustomElevatedButton(
-                    onPressed: () {},
-                    // controller.deleteUser(),
+                    onPressed: () {
+                      controller.deleteUser();
+                    },
                     child: Text("Delete User", style: textTheme.labelMedium),
                   ),
                 ),

@@ -80,6 +80,8 @@ class OnboardingController extends GetxController {
   deleteUser() async {
     try {
       await ApiRepository.instance.deleteUser();
+      StorageService.instance.clearAll();
+      Get.offAllNamed(AppRoutes.startupRoute);
     } on DioException catch (e) {
       if (kDebugMode) print(e);
     }
