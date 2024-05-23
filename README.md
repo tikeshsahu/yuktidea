@@ -1,6 +1,6 @@
-# Yuktidea Assignment
+# UI Challenge
 
-This Flutter project is an assignment to develop the UI for onboarding screens of a mobile application and integrate provided APIs to fetch necessary data for the onboarding process. The application follows Flutter's best practices and guidelines for UI development to ensure a visually appealing and user-friendly experience.
+This Flutter project is a UI challenge to build onboarding screens of a mobile application and integrate provided APIs to fetch necessary data for the onboarding process. The application follows Flutter's best practices and guidelines for UI development to ensure a visually appealing and user-friendly experience.
 
 ## Screenshots
 Screens                                                                                                                                                                  |  Screens                                                                                                                                                                |  Screens                                                                                                                                                                | Screens
